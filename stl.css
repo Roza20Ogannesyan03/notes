@@ -1,0 +1,107 @@
+@font-face {
+	font-family: 'Century Gothic'; 
+	src: local('Century Gothic'),
+		url(fonts/centurygothic.ttf); 
+}
+body{
+    max-width: 1920px;
+    font-family: 'Century Gothic';
+}
+
+a{
+text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    color: #E1E5EE;
+}
+.header-container{
+    position: relative;
+    width: 1660px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 89px;
+    height: 60px;
+}
+
+.navigation{
+    position: absolute;
+    left: 364px;
+    width: 591px;
+    height: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+a{
+    font-size: 16px;
+    line-height: 19.62px;
+    color: #333;
+}
+
+.delivery-button{
+    position: absolute;
+    left: 1169px;
+    width: 125px;
+    height: 44px;
+    border: 1px solid #d81010;
+    border-radius: 4px;
+    padding: 12px, 24px, 12px, 24px;
+    background-color: white;
+    font-family: 'Century Gothic';
+}
+
+.contacts{
+    position: absolute;
+    left: 1477px;
+    width: 183px;
+    height: 42px;
+    text-align: end;
+}
+
+.qqq{
+width: 183px;
+height: auto;
+display: flex;
+justify-content: space-between;
+
+}
+.phone-icon{
+    height: 18px;
+    width: 18px;
+}
+.number{
+    font-size: 18px;
+    line-height: 22px;
+    width: 155px;
+    height: 22px;
+}
+
+.contacts_text{
+    margin: 0px;
+    font-size: 14px;
+    line-height: 17.17px;
+    color: #5f6368;
+}
+
+/*****************************************************************************************************************************/
+.slider{
+    margin-top: 182px;
+    height: 820px;
+}
+.slides{
+    width: 2381px;
+    height: 568px;
+    display: flex;
+    gap: 64px;
+}
